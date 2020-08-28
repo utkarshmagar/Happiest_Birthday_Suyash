@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("background.png");
+  }
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: cursive;
+  color: #01FF70;
+}
+
+h2 {
+  position: relative;
+  float: right;
+  width: 160px;
+  height: auto;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  margin-right: 2px;
+  border-right: none;
+  font-family: Helvetica;
+}
+
+p {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 15px;
+  font-family: Comic Sans MS;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.name {
+  font-family: 'Sofia';
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: #DDDDDD;
+  }
+  .col-lg-4 {
+    width: 31.30%;
+  }
+}
+
+/********** Tablet only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: #DDDDDD;
+  }
+  .col-md-6 {
+    width: 47.97%;
+  }
+  .col-md-12 {
+    width: 97.97%;
+  }
+}
+
+/********** Mobile only **********/
+@media (max-width: 767px) {
+  .col-sml-12 {
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: #DDDDDD;
+  }
+  .col-sml-12 {
+    width: 97.97%;
+  }
+}
